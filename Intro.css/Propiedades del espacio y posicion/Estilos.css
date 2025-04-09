@@ -1,0 +1,31 @@
+:root{
+    font-size: 30px;/*Tamaño letra*/
+}
+.caja-1,.caja-2,.caja-3 {
+    display:inline-block;
+width: 100%; /*Ancho*/
+height: 100%; /*Alto*/
+background-color: rgb(150, 200, 255); /*Color de Fondo*/
+}
+.caja-1{
+    width: 100px;
+/*max-width: 80%;*/
+    background-color: paleturquoise;
+    border-bottom:10px groove plum;
+    border-top:10px groove plum;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius:100px;
+    
+}
+.caja-2{
+   /* margin-top: 30px;
+    margin-bottom: 20px;*/
+    margin: 50px,30px,100px,60px;
+    padding:50px;
+    
+}
+    /*font-size: 2rem;
+    width: 50%;
+    height: 50px;
+    background-color: palevioletred;
+} */
